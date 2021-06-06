@@ -1,0 +1,71 @@
+/* .allvh{
+    min-height: 80vh;
+} */
+.fixed-top{
+    padding-top: 6rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 9999;
+    background-color: #aaae88;
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+    text-indent: 9999px;
+    background: transparent url("../img/avatar-fer.jpg") no-repeat left;
+    background-size: contain;
+}
+.logounam{
+    width: 4rem;
+    height: 4rem;
+    text-indent: 9999px;
+    background: transparent url("../img/fca.png") no-repeat left;
+    background-size: contain;
+}
+
+.menu{
+    font-weight: 700;
+    text-align: left;
+}
+
+/* .home{
+    background: #71bfc3 url("../img/fondo-home2.jpg") repeat center;
+} */
+
+/* .home h2{
+    margin:  auto 0;
+    font-size: 15vw;
+    font-weight: 200;
+    color: #aaae88;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1vw;
+    text-shadow: 5px 0 0 #190e0a , -2px 0 0 #190e0a, 0 2px 0 #190e0a, 0 -2px 0 #190e0a, 1px 1px #190e0a, -1px -1px 0 #190e0a, 1px -1px 0 #190e0a, -1px 1px 0 #190e0a; 
+} */
+.kefir-pic{
+    max-width: 50%;
+}
+/********************************************************* carrousel *********************************************************/
+
+/********************************************************* termina carrousel *********************************************************/
+@media screen and (min-width: 30em){
+    .fixed-top{
+        padding-top: 12rem;
+    }
+
+}
+@media screen and (min-width: 48em){
+    .kefir-pic{
+        max-width: 80%;
+    }
+    .fixed-top{
+        padding-top: 6rem;
+    }
+}
+@media screen and (min-width: 64em){
+    
+}
